@@ -1,0 +1,202 @@
+
+.background { 
+	background-image:url('../img/background.png');
+	background-repeat:no-repeat; 
+	background-attachment:fixed; 
+	background-position:center; 
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+
+.ui-accordion-content-active {
+height:auto;
+width:auto;
+}
+div img {
+	height:20em;
+	width:20em;
+	vertical-align:middle;
+	margin:auto;
+	display:none;
+	border:2px solid white;
+	float:right;
+	
+}
+.mainheading {
+	
+    color: white;
+    text-align: center;
+    font-size:90px;
+    position:relative;
+}
+
+p {clear:both;}	
+.subtitle {
+	color:#FFA500;
+	font-size:2em;
+	text-align: center;
+	position:relative;
+}
+
+#introanimate {
+	display:none;
+	margin:auto;
+}
+.educationcontent {
+	margin-top:5%;
+
+}
+#education {
+	padding-top:10em;
+	margin:auto;	
+	background: rgba(0,0,0,0.7);
+	border: 1px solid black;
+}
+div h1,
+div h2,
+div h3,
+div h5,
+div h6 {
+  font-weight:600;
+  line-height: 150%;
+}
+div div h2 {
+	  margin: auto;
+	  color: #7b7f88;	
+	  text-align:center;
+}
+
+#skills{
+	padding-top:10em;
+	margin:auto;
+	margin-top:7em;
+	background: rgba(0,0,0,0.7);
+	border: 1px solid black;
+	
+}
+.Techskills {
+	color:white;
+	margin-top:7em
+	float:left;
+}
+
+#Project{
+	padding-top:10em;
+	margin:auto;
+	margin-top:7em;
+	background: rgba(0,0,0,0.7);
+	border: 1px solid black;
+	
+}
+.Projects {
+	color:white;
+	margin-top:7em
+	float:left;
+}
+
+#Respon {
+	padding-top:10em;
+	margin:auto;
+	margin-top:7em;
+	background: rgba(0,0,0,0.7);
+	border: 1px solid black;
+
+}
+.Resposability {
+	color:white;
+	margin-top:7em
+	float:left;
+}
+#contact {
+	padding-top:10em;
+	margin:auto;
+	margin-top:7em;
+	background: rgba(0,0,0,0.7);
+	border: 1px solid black;
+}
+.contactaddress {
+	color:white;
+	margin-top:7em
+	float:left;
+}
+
+* {
+/*border:1px dashed red;*/
+padding:5px;
+}
+#ProjectLink {
+	color:white;
+	font-weight:600;
+	line-height: 150%;
+}
+#ProjectLink:hover {
+color:#23527c;
+}
+
+.download{
+    background-color: #555555;
+    color:white ;
+    border: 2px solid #555555;
+    font-size: 16px;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius:10px;
+    margin: auto;
+    display:block;
+}
+
+.download:hover {
+    background-color:white ;
+    color: black;
+}
+div a:hover{
+text-decoration:none;
+}
+/*
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+* {
+border:1px dashed red;
+}
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;  
+}
+}*/
